@@ -41,12 +41,26 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:layout_marginTop="24dp"
-                    android:text="@string/hosgeldiniztext"
+                    android:text="Hoş Geldiniz"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="isim"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -389,20 +403,21 @@
                 android:baselineAligned="false">
 
                 <LinearLayout
+                    android:id="@+id/homeBtn"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.25"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:contentDescription="@string/contentdescdot"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="4dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/contentdescdot"
                         app:srcCompat="@drawable/btn_1"
-                        tools:layout_gravity="center"
-                        tools:ignore="InefficientWeight,NestedWeights" />
+                        tools:ignore="InefficientWeight,NestedWeights"
+                        tools:layout_gravity="center" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -439,21 +454,22 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/cartBtn"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.25"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:contentDescription="@string/contentdescdot"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="4dp"
                         android:layout_marginTop="4dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/contentdescdot"
                         app:srcCompat="@drawable/btn_3"
-                        tools:layout_gravity="center"
-                        tools:ignore="InefficientWeight,NestedWeights" />
+                        tools:ignore="InefficientWeight,NestedWeights"
+                        tools:layout_gravity="center" />
 
                     <TextView
                         android:layout_width="match_parent"

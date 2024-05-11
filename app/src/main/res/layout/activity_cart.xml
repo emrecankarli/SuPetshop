@@ -8,7 +8,7 @@
     tools:context=".Activity.CartActivity">
 
     <TextView
-        android:id="@+id/emtyTxt"
+        android:id="@+id/emptyTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sepetiniz Boş"
@@ -34,7 +34,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -62,7 +62,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/view3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/textView15"
@@ -94,6 +94,7 @@
                 <TextView
                     android:id="@+id/textView18"
                     style="@style/textStyle"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Teslimat"
@@ -141,7 +142,7 @@
 
                 <View
                     android:id="@+id/view2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_margin="8dp"
                     android:background="#8F8F8F"
@@ -215,7 +216,7 @@
 
                 <View
                     android:id="@+id/view4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_marginTop="8dp"
                     android:background="#8F8F8F"
