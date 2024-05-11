@@ -9,12 +9,14 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-123dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -57,13 +59,12 @@
                     android:layout_width="0dp"
                     android:layout_height="290dp"
                     android:layout_margin="16dp"
-                    android:layout_marginTop="16dp"
                     android:background="@drawable/grey_background"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                    app:layout_constraintVertical_bias="0.0" />
 
                 <ImageView
                     android:id="@+id/urunpic"
@@ -71,8 +72,10 @@
                     android:layout_height="290dp"
                     app:layout_constraintBottom_toBottomOf="@+id/view"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="@+id/view"
-                    app:layout_constraintTop_toTopOf="@+id/view"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                    app:layout_constraintVertical_bias="1.0"
                     app:srcCompat="@drawable/hediye1bg" />
 
                 <LinearLayout
@@ -94,7 +97,7 @@
                         android:layout_weight="1"
                         android:text="Yüksek Sevgi Dolu Paket\n(Orta Irk Köpeklere Özel)"
                         android:textColor="@color/black"
-                        android:textSize="23sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -104,11 +107,12 @@
                         android:layout_weight="1"
                         android:text="920 TL"
                         android:textColor="@color/black"
-                        android:textSize="22sp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linearLayout2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
@@ -116,11 +120,14 @@
                     app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
                     <ImageView
-                        android:id="@+id/imageView12"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView9"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/kargo1" />
+                        android:scaleType="fitCenter"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        app:srcCompat="@drawable/kargo" />
 
                     <TextView
                         android:id="@+id/textView12"
@@ -129,21 +136,41 @@
                         android:layout_weight="1"
                         android:text="500 TL ve Üzeri\nKARGO BEDAVA"
                         android:textColor="#eb5e4f"
-                        android:textStyle="bold"
-                        android:textSize="15sp"/>
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Aynı Gün Kargo!"
+                        android:text="+ Aynı Gün Kargo!"
                         android:textColor="#eb5e4f"
-                        android:textStyle="bold"
-                        android:textSize="16sp"/>
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sevimli patili dostunuzun sağlığı ve mutluluğu bizim için önemli! Yüksek Sevgi Dolu Paket ile onları şımartmanın tam zamanı! Bu özel paket, MyDog kalitesiyle hazırlanmış, köpeğinizin ihtiyaçlarına özel bir kombinasyon sunar."
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/AddToCartBtn"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/red_button_bg"
+                android:text="Sipariş Ver"
+                android:textColor="@color/white" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
