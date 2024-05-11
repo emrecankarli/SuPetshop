@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357876816876",
+    "project_id": "supetshop-1b52e",
+    "storage_bucket": "supetshop-1b52e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357876816876:android:f23dd6c9b4a976eb2b7ec9",
+        "android_client_info": {
+          "package_name": "com.example.supetshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb3TNBfJpbYsT3FC4wg0cVJEPeo6b8Abw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

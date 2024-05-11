@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">supetshop</string>
+    <string name="arama">Arama</string>
+    <string name="reklam">Köpek Mamalarında\n%20 İNDİRİM!</string>
+    <string name="gozatbuton">Göz At!</string>
+    <string name="bildirim">1</string>
+    <string name="hosgeldiniztext">Hoşgeldiniz</string>
+    <string name="supetshop">Su Petshop</string>
+    <string name="contentdescdot">.</string>
+    <string name="populer">Popüler Kategoriler</string>
+    <string name="mama">Mama</string>
+    <string name="kedi">Kedi</string>
+    <string name="kopek">Köpek</string>
+    <string name="kus">Kuş</string>
+    <string name="hediye">Hediye</string>
+    <string name="kesfet">Keşfet</string>
+    <string name="favoriler">Favoriler</string>
+    <string name="sepet">Sepet</string>
+    <string name="hesap">Hesap</string>
+    <string name="populerurunler">Popüler Ürünler</string>
+    <string name="tumunugor">Tümünü Gör</string>
+</resources>
