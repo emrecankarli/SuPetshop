@@ -30,11 +30,11 @@ Projeyi yerel ortamınıza kurmak için aşağıdaki adımları izleyin:
 
 1. **Depoyu klonlayın:**
     ```sh
-    git clone https://github.com/your-username/android-petshop.git
+    git clone https://github.com/emrecankarli/SuPetshop.git
     ```
 2. **Proje dizinine gidin:**
     ```sh
-    cd android-petshop
+    cd SuPetshop
     ```
 3. **Gerekli bağımlılıkları yükleyin:**
     ```sh
